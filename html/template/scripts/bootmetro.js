@@ -14,17 +14,17 @@
       $(".metro-sections").css('left', 0);
 
       // setup the horizontal scroll
-//      $(".metro-sections").mousewheel(function(e, delta) {
-//         e.preventDefault();
-//
-//         var $s = $(this);
-//         var actualLeft = parseInt($s.css('left'));
-//         var newLeft = actualLeft - (delta * 50);
-//         //console.log('delta: ' + delta + ' - actualLeft: ' + actualLeft + ' - newLeft: ' + newLeft);      
-//
-//         if (newLeft <= 0 && newLeft >= max ) 
-//            $s.css('left', newLeft ); 
-//      });
+      $(".metro-sections").mousewheel(function(e, delta) {
+         e.preventDefault();
+
+         var $s = $(this);
+         var actualLeft = parseInt($s.css('left'));
+         var newLeft = actualLeft - (delta * 50);
+         //console.log('delta: ' + delta + ' - actualLeft: ' + actualLeft + ' - newLeft: ' + newLeft);      
+
+         if (newLeft <= 0 && newLeft >= max ) 
+            $s.css('left', newLeft ); 
+      });
 
 
       // if the tiles viewport is wider than the screen than shows the arrow buttons

@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 
 .bg-color-blue {
-   background-color: #0072BC;
+   background-color: #0072BC !important;
 }
 .bg-color-blueDark {
    background-color: #662D91 !important;
