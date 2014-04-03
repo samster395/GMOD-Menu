@@ -1,6 +1,12 @@
 /*
 Typographic color definitions.
 */
+/*#charms {
+    background-color: rgba(255, 0, 0, 1);
+}
+.bg-color-blue {
+    background-color: rgba(255, 0, 0, 1);
+}*/
 html,
 body {
     color: rgb(255, 255, 255);
