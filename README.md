@@ -1,7 +1,11 @@
 Description
 ---------------------
 
-GMOD Metro style menu
+GMOD Edited Main Menu
+
+It replaces your gmod menu with a new themeable menu
+
+Metro style is the default theme
 
 It uses the [Bootmetro](http://aozora.github.io/bootmetro/) framework
 
